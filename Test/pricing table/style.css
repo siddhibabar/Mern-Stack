@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pricing-section{
+    min-height: 100vh;
+    background: #f4f6f8;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.pricing-table{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.plan{
+    background: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.plan:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.plan h2{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.price{
+    font-size: 36px;
+    color: #667eea;
+    margin: 20px 0;
+}
+
+.price span{
+    font-size: 16px;
+    color: #666;
+}
+
+.plan ul{
+    list-style: none;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.plan ul li{
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+.plan button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.plan button:hover{
+    background: #5563d6;
+}
+
+.recommended{
+    border: 2px solid #667eea;
+    transform: scale(1.05);
+}
+
+.badge{
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #667eea;
+    color: white;
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 20px;
+}
